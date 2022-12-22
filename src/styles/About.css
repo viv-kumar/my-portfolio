@@ -1,0 +1,21 @@
+#about-div {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 10px;
+}
+#about-div > div:first-child > img {
+  width: 100%;
+  border-radius: 5%;
+}
+#about-div > div:nth-child(2) > p {
+  align-items: center;
+  margin-top: 20%;
+  color: rgb(74, 72, 72);
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 4px;
+}
